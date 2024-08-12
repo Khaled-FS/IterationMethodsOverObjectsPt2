@@ -44,6 +44,7 @@ const cities = [
 function getCityPopulation(city) {
   return city.population;
 }
+console.log("task1");
 console.log(getCityPopulation(cities[0]));
 
 /**********
@@ -63,6 +64,7 @@ function isPopulationAboveThreshold(city, threshold) {
     false;
   }
 }
+console.log("task2");
 console.log(isPopulationAboveThreshold(cities[1], 2000000));
 
 /**********
@@ -123,7 +125,7 @@ const newCity = {
   population: 1200000,
   country: "Canada",
 };
-
+console.log("task3");
 console.log(addCity(cities, newCity));
 
 /**********
